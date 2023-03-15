@@ -1,0 +1,201 @@
+body{
+    color: #434455;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+
+}
+*{margin: 0;}
+.link{
+    text-decoration: none;
+    cursor: pointer;
+    color: #434455;
+
+}
+.list{
+    list-style: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 0.02em;
+    color: #434455;
+
+}
+.container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0;
+}
+.bottom-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.top-text{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.title-text{
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+/* ------------------------------------------header------------------------- */
+.header-conteiner{
+    background-color: bisque;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.header-link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.header-link:is(:hover,:focus){
+
+    color: #404bbf;
+}
+.logo-studio{
+ color: #2E2F42;
+}
+.logo{
+        font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4D5AE5;
+        }
+
+   .header-tel{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+   }  
+.header-address{
+    font-style: normal;
+}
+   .header-tel:is(:hover, :focus){
+    color: #404bbf;
+    color: #404bbf;
+   }
+
+/* ---------------------------------scrolls------------------ */
+    .scrolls{
+    background-color: #2E2F42;
+    }
+    .scrolls-nome{
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        text-align: center;
+        color: #FFFFFF;
+        letter-spacing: 0.02em;
+        
+    }
+    .order-button{
+        background-color:  #4D5AE5;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+.order-button:is(:hover, :focus){
+        color: #404bbf;
+        color: #404bbf;
+}
+
+        
+/* ---------------------------- section 1 --------------------------- */
+.sectio-about-list{
+    background-color:#FFFFFF;
+
+}
+/* ---------------------------- section 2 --------------------------- */
+
+/* ---------------------------- section 3 --------------------------- */
+.section-staff{
+    background-color: #F4F4FD;
+    
+}
+.section-staff-list{
+    background-color: #FFFFFF;
+
+}
+.staff-li{
+    background-color: #FFFFFF;
+}
+/* -----------------------------footer------------------------------- */
+.footer{
+    background-color: #2E2F42;
+}
+.logo-studio-footer{
+    color:#F4F4FD;
+}
+.footer-text{
+    color: #E7E9FC;
+}
+
+/* -------------------------------portfolio--------------------- */
+.filter-btn{
+    font-family: 'Roboto', sans-serif; 
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;    
+        letter-spacing: 0.04em;
+        color: #4D5AE5;
+        cursor: pointer;
+       background-color: #F4F4FD;
+    }
+.filter-btn:is(:hover,:focus){
+    background: #F4F4FD;
+    background: #404BBF;
+    color:#4D5AE5;
+    color: #FFFFFF;
+
+}
+
+/* -----project-card----- */
+.project-bottom-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    
+
+}
+.project-top-text{
+    color: #2E2F42;
+    font-family: 'Roboto'; 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
