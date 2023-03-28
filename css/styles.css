@@ -357,11 +357,14 @@ img{ display: block;}
     letter-spacing: 0.02em;
 }
 
-.container-project{
+.project-cart{
  
     display: flex;
     flex-wrap: wrap;
-    column-gap: 40px;
+    row-gap: 48px;
+    column-gap: 28px;
+    flex-basis: calc((100% - 56px) / 3);
+
 
 
 }
@@ -369,6 +372,7 @@ img{ display: block;}
     width: 360px;
     height: 420px;
     border: 1px solid #E7E9FC;
+    
 }
 .project-text{
 
@@ -377,4 +381,6 @@ img{ display: block;}
     padding: 16px;
     gap: 8px;
 }
-
+.container-project{
+    margin-bottom: 120px;
+}
