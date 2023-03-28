@@ -271,7 +271,7 @@ img{ display: block;}
     color: #E7E9FC;
     padding-top: 16px;
     width: 279px;
-    
+
 
 
 
@@ -299,8 +299,41 @@ img{ display: block;}
     color:#4D5AE5;
     color: #FFFFFF;
 
+    }
+.filter-btn{
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
 }
+.btn-all{
+    width: 69px;
+    height: 48px;
+}
+.btn-web{
+    width: 116px;
+    height: 48px;
+}
+.btn-app{
+    width: 78px;
+    height: 48px;
+}
+.btn-des{
+    width: 101px;
+    height: 48px;
+}
+.btn-mar{
+    width: 126px;
+    height: 48px;
+}
+.filter-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 96px;
 
+   
+}
 /* -----project-card----- */
 .project-bottom-text{
     font-family: 'Roboto';
@@ -310,6 +343,7 @@ img{ display: block;}
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+
     
 
 }
@@ -322,3 +356,25 @@ img{ display: block;}
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
+
+.container-project{
+ 
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 40px;
+
+
+}
+.project-cart-list{
+    width: 360px;
+    height: 420px;
+    border: 1px solid #E7E9FC;
+}
+.project-text{
+
+    padding-top: 34px;
+    padding-bottom: 34px;
+    padding: 16px;
+    gap: 8px;
+}
+
