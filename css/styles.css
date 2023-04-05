@@ -80,7 +80,7 @@ img{ display: block;}
     display: flex;
     flex-direction: row;
      align-items: flex-start;
-     padding: 0 76px 0 0;
+     margin: 0 76px 0 0;
 }
 .menu-nav{
     display: flex;
@@ -146,6 +146,9 @@ img{ display: block;}
 
 .scrolls{
     background-color: #2E2F42;
+    text-align: center;
+    padding: 188px 0 188px 0;
+    max-width: 2560px;
 }
 
 .order-button:is(:hover, :focus){
@@ -166,6 +169,8 @@ img{ display: block;}
     gap: 10px;
     border-radius: 4px;
     border: 1px;
+    margin: 0 auto;
+    margin-top: 48px;
     
     }
 .scrolls-nome{
@@ -175,22 +180,11 @@ img{ display: block;}
     color: #FFFFFF;
     text-align: center;
     letter-spacing: 0.02em;
+    margin: 0 auto;
+    max-width: 496px;
+    
       
     }
-.nome{
-    padding-top: 188px;
-    padding-bottom: 292px;
-}
-.btn {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    padding-top: 404px;
-    padding-bottom: 188px;
-}
 
 
 /* ---------------------------- section 1 --------------------------- */
@@ -207,12 +201,16 @@ img{ display: block;}
     gap: 24px;
 
 }
+.sectio-about-top{
+    margin-bottom: 8px;
+}
 
 /* ---------------------------- section 2 --------------------------- */
 .what-are{
     background-color: #FFFFFF;
     display: flex;
     padding-top: 120px;
+    padding-bottom: 120px;
 }
 .images-what-are{
     display: flex;
@@ -231,8 +229,9 @@ img{ display: block;}
 /* ---------------------------- section 3 --------------------------- */
 .section-staff{
     background-color: #F4F4FD;
-        display: flex;
-            padding-top: 120px;
+    display: flex;
+    padding-top: 120px;
+    padding-bottom: 120px;
     
 }
 .text-team{
@@ -245,9 +244,6 @@ img{ display: block;}
     align-items: flex-start;
     padding: 0px;
     gap: 24px;
-    padding-bottom: 120px;
-  
-
 }
 .staff-li{
     background-color: #FFFFFF;
@@ -257,6 +253,9 @@ img{ display: block;}
     text-align: center;
     padding-top: 32px;
     padding-bottom: 32px;
+}
+.top-text-staff{
+    margin-bottom: 8px;
 }
 /* -----------------------------footer------------------------------- */
 .footer{
@@ -269,7 +268,7 @@ img{ display: block;}
 }
 .footer-text{
     color: #E7E9FC;
-    padding-top: 16px;
+    margin-top: 16px;
     width: 279px;
 
 
@@ -330,7 +329,9 @@ img{ display: block;}
     justify-content: center;
     align-items: center;
     gap: 40px;
-    padding: 96px;
+    padding-top: 96px;
+    padding-bottom: 72px;
+    
 
    
 }
@@ -355,6 +356,7 @@ img{ display: block;}
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .project-cart{
@@ -370,17 +372,15 @@ img{ display: block;}
 }
 .project-cart-list{
     width: 360px;
-    height: 420px;
     border: 1px solid #E7E9FC;
     
 }
 .project-text{
 
-    padding-top: 34px;
-    padding-bottom: 34px;
-    padding: 16px;
+
+    padding: 34px 0px 34px 16px;
     gap: 8px;
 }
 .container-project{
-    margin-bottom: 120px;
+   padding-bottom: 120px;
 }
