@@ -221,7 +221,7 @@ img{ display: block;}
 
 }
 .text-what-are{
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 .container-img-doing{
     padding-bottom: 120px;
@@ -235,7 +235,7 @@ img{ display: block;}
     
 }
 .text-team{
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 .section-staff-list{
    
@@ -329,8 +329,7 @@ img{ display: block;}
     justify-content: center;
     align-items: center;
     gap: 40px;
-    padding-top: 96px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     
 
    
@@ -381,6 +380,8 @@ img{ display: block;}
     padding: 34px 0px 34px 16px;
     gap: 8px;
 }
-.container-project{
-   padding-bottom: 120px;
+
+.container-portfolio{
+    padding-top: 96px;
+    padding-bottom: 120px; 
 }
